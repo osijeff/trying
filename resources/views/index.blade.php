@@ -13,8 +13,8 @@
     <div class="carousel-item active">
       <img class="d-block w-100" src="images/hero-1.jpg" alt="First slide">
        <div class="carousel-caption">
-          <h3>First slide</h3>
-          <p>This is the first slide.</p>
+          <h3> You are welcome</h3>
+          <p>come as you</p>
         </div>
     </div>
     <div class="carousel-item">
@@ -36,7 +36,7 @@
        <div class="carousel-caption">
           <h3>First slide</h3>
           <p>This is the first slide.</p>
-        </div>
+      </div>
     </div>
   </div>
   <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
@@ -48,12 +48,11 @@
     <span class="sr-only">Next</span>
   </a>
  </div>
+ 
+<!--  about us section -->
 
-</div>
-
-
+@include('partials.aboutsection')
+@include('partials.upcoming')
+@include('partials.foot')
 @endsection
 
-<style>
-
-</style>
