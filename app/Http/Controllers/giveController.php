@@ -8,6 +8,7 @@ class giveController extends Controller
 {
      public function give()
     {
-        return view('give');
+        return view('innerPages.give');
+        
     }
 }

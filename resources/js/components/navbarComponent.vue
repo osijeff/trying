@@ -3,7 +3,7 @@
 
 <template>
 <div>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light clientnav bg-light">
   <a class="navbar-brand" href="#">THE APOSTOLIC CHURCH LAWNA <br>SOUTH AFRICA</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -85,7 +85,27 @@
 
 <style>
 
+.clientnav{
+  text-transform: uppercase;
+  background-color: grey!important;
+  color: whitesmoke!important;
+  transition-duration: 4s;
+  transition-delay: 2s;
 
+}
+.clientnav ul li a{
+  color: white!important;
+  
+}
+.clientnav ul li a:hover{
+  background-color: rgb(104, 96, 96)!important;
+}
+.dropdown-menu{
+  background-color: darkgray!important;
+}
+.dropdown-menu a:hover{
+color: rgb(37, 34, 34)!important;
+}
 </style> 
 
 

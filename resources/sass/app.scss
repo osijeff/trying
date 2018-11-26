@@ -3,8 +3,9 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 $fa-font-path:"../webfonts";
 // Variables
-@import 'variables';
 @import 'costume.scss';
+@import 'variables';
+
 
 
 // Bootstrap
@@ -15,6 +16,9 @@ $fa-font-path:"../webfonts";
 
 
 .navbar-laravel {
-  background-color: #fff;
+  
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+.btn{
+  background-color: 253747;
 }
