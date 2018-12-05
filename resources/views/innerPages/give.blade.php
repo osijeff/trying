@@ -1,10 +1,8 @@
-<div id="app">
-
 @extends('layouts.clientNav')
 @section('content')
 
-<div class="jumbotron jumbotron-fluid text-center" id="giving" style="height:60vh" >
- <div class="container">
+<div class=" give-jobu jumbotron-fluid " id="giving" style="height:60vh" >
+ <div class="container ">
   <h1>GIVE ONLINE</h1>
     <p>As you give the good Lord will greatly reward</p>
 </div>
@@ -65,12 +63,8 @@
 </div>
 <!-- end of more resource on gibing -->
 <div class="container">
-    FREQUENTELY ASKED QUESTIONS ON GIVING
-</div>
-<frequently-component></frequently-component>
-
+   <h4> FREQUENTELY ASKED QUESTIONS ON GIVING</h4>
 <!-- // frquently asked question on give -->
-<div class="container">
 <div class="accordion" id="accordionExample">
   <div class="card">
     <div class="card-header" id="headingOne">

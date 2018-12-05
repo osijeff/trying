@@ -37,3 +37,7 @@ Route::get('/innerPages/believes', 'believesController@believes')->name('believe
 Route::get('/innerPages/nationalExco', 'nationalExcoController@nationalExco')->name('nationalExco');
 Route::get('/innerPages/leadership', 'leadershipController@leadership')->name('leadership');
 Route::get('/innerPages/blog', 'blogController@blog')->name('blog');
+Route::get('/innerPages/podcast', 'podcastController@podcast')->name('podcast');
+Route::get('/innerPages/announcement', 'announcementController@announcement')->name('announcement');
+Route::get('/innerPages/news', 'newsController@news')->name('news');
+Route::get('/innerPages/nationalSubscription', 'nationalSubscriptionController@nationalSubscription')->name('nationalSubscription');

@@ -1,6 +1,6 @@
 @extends('layouts.clientNav')
 @section('content')
-<div class="jumbotron contact-jubo  jumbotron-fluid">
+<div class="jumbotron contact-jubo  jumbotron-fluid" id="app">
   <div class="container">
     <h1 class="display-4 text-uppercase" >GET IN TOUCH WITH US</h1>
     <p class="lead">We will be glad to meet you</p>
@@ -62,6 +62,7 @@
  </div>
  </div>
 </div>
+<frequently-component></frequently-component>
  @include('partials.foot')
 @endsection
 

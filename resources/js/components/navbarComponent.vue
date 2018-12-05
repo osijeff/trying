@@ -21,7 +21,8 @@
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="#">	History</a>
           <a class="dropdown-item" href="#">Our believes</a>
-          <a class="dropdown-item" href="#">Leadership</a>
+          <b-link class="dropdown-item" v-bind:href ="url">Leadership</b-link>
+              <b-link href="#foo">Link</b-link>
           <a class="dropdown-item" href="#">National excutives</a>
         </div>
       </li>
@@ -77,7 +78,7 @@
     export default {
        data: function () {
     return {
-       
+       url: "{{ url('/') }}"
       }
   }
     }

@@ -9,6 +9,13 @@ require('./bootstrap');
 require('./custome');
 
 
+
+import Vue from "vue";
+import BootstrapVue from "bootstrap-vue";
+import "babel-polyfill";
+
+
+Vue.use(BootstrapVue);
 window.Vue = require('vue');
 
 /**
@@ -23,7 +30,8 @@ Vue.component('example-component', require('./components/ExampleComponent.vue'))
 Vue.component('navbar-component', require('./components/navbarComponent.vue'));
 Vue.component('hero-component', require('./components/hero-Component.vue'));
 Vue.component('aboutus-component', require('./components/aboutUsComponent.vue'));
-Vue.component('frequently-component', require('./components/frequentlyAsk.vue'));
+Vue.component('frequently-component', require('./components/slid-component.vue'));
+Vue.component('slid-component', require('./components/frequentlyAsk.vue'));
 
 // const files = require.context('./', true, /\.vue$/i)
 
@@ -42,3 +50,4 @@ Vue.component('frequently-component', require('./components/frequentlyAsk.vue'))
 const app = new Vue({
     el: '#app'
 });
+

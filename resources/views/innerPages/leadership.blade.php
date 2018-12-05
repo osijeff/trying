@@ -1,6 +1,6 @@
 @extends('layouts.clientNav')
 @section('content')
-<div class="jumbotron jumbotron-fluid">
+<div class="jumbotron  leadership-jobu jumbotron-fluid">
   <div class="container">
     <h1 class="display-4 text-uppercase">THE MEET THE LEADERS OF THE CHURCH</h1>
     <p class="lead">We will be glad to meet you</p>

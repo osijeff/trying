@@ -1,4 +1,32 @@
- a{
+ 
+ 
+
+.clientnav{
+  text-transform: uppercase;
+  background-color: grey!important;
+  color: whitesmoke!important;
+  transition-duration: 4s;
+  transition-delay: 2s;
+
+}
+.clientnav ul li a{
+  color: white!important;
+  
+}
+.clientnav ul li a:hover{
+  background-color: rgb(104, 96, 96)!important;
+}
+.dropdown-menu{
+  background-color: darkgray!important;
+}
+.dropdown-menu a:hover{
+color: rgb(37, 34, 34)!important;
+ }
+ // end nav
+
+
+
+a{
    text-decoration: none;
  }
   .carousel-caption {
@@ -23,9 +51,9 @@
     color: white;
   }
 
-a{
+a i{
   text-decoration: none;
-  color: white;
+background-color: #fff;
 }
 
 // hover in effect for online giving
@@ -116,13 +144,26 @@ a{
     .minister{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 
   }
-  // end of upcoming
+  .minister img{
+    width: 70px!important;
+    height: 70px;
+  }
   
-
-
+  
+ .time{
+  height: 70px;
+  width: 150px;
+  background-color: rgb(248, 10, 10)!important;
+  color:white;
+  position: absolute;
+  top: 20px;
+  padding-left: 0.5rem;
+  
+}
+//end of upcoming
 
 // gallery style
   .auto-fit-and-minmax{
@@ -192,18 +233,270 @@ a{
         }
         .social{
           font-size:2em;
-          margin-right:.6em;
+        
         }
-     
 
-@media (min-width: 768px) {
- 
+   .content-rapper{
+     display: flex;
+    flex-direction: row;
+    flex-shrink: 2;
+    color: #fff;
+   }
+  footer{
+    background-color: #253747;
+  }
+
+  .even-date{
+    height: 100px;
+    width: 100px;
+    background-color: darkred;
+    color: #fff;
+  }
+   .wrapper{
+            
+            height: auto;
+            overflow: hidden;
+         
+        }
+       .wrapper .owl-carousel .item{
+            background-color: blueviolet;
+            height: 400px;
+            width: 300px;}
+           
+           
+            // title for sections 
+            .about-section{
+              height: auto;
+              background-color: lightgrey;
+              padding-top: 1em;
+              line-height: 1.6em; 
+              box-sizing: border-box;
+            }
+            .section-titles{
+              margin-top:50px;
+               text-transform:uppercase;
+               font-size: 1.6em;
+               font-weight:bolder;
+            }
+            .col-md-4 i{
+              font-size: 5em;
+              margin-bottom: .1em;
+            }
+            .col-md-4 p{
+              color: white;
+              font-size: 1.6em;
+            }
+            div .item{
+            
+            
+              background-color: #253747;
+        
+            }
+            .sermon-in{
+              display: flex!important;
+              flex-direction: column!important;
+
+            }
+            .img-item img{
+            max-width: 100px;
+            }
+          .feature-sermon h1{
+            position: absolute;
+            font-weight: 1000;
+            bottom:50%;
+            font-size: 4em;
+          }
+          .feature-sermon h3 {
+            color:white;
+            margin-top:1em;
+            line-height: 1.5em;
+          }
+          // church officers style
+          .officers{
+        margin-top: 300px;
+            width: 100%;
+            margin: 0 auto;
+            display: grid;
+            grid-gap: 10px;
+            grid-template-columns: repeat(250px, 1fr); 
+            grid-auto-rows: 250px; 
+            grid-auto-flow: dense;
+    }
+    .horizontal{
+        grid-column: span 1;
+    }
+    .big{ grid-column: span 1;
+         grid-row: span 1;}
+    .vertical{
+        grid-row: span 1;
+    }
+    .caption{
+      height: 60px;
+      background-color: #253747;
+      width: 100%;
+      display: block;
+      position: absolute!important;
+      bottom:2.6em;
+      color:white;
+      text-align:center;
+      padding-top: .4em;
+      left: 0px;
+
+
+    }
+    // footer style
+
+    .foot-section{
+      padding-top: 3em;
+      background-color: rgb(7, 6, 6);
+      color: #fff;
+    }
+
+
+footer{
+  background-color:
+  rgb(7, 6, 6);
+  color: #fff;
+}
+.content-rapper{
+  max-width: 100%;
+  margin: 0 auto;
+}
+.content-rapper{
+  padding-top: 3em;
+}
+.linkwraper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;}
+  .link-item{
+    flex-basis: 2;
+  }
+
+.link-item a{
+  text-decoration: none;
+  font-size: 1.2em;
+  margin-bottom: 4em;
+  
+}
+.gallerywraper{
+  display: flex;
+  flex-direction: row;
+
+}
+.gallery-item{
+  margin: 1em;
+}
+.footer-column-3 .footer-column-4{
+  flex-grow: 2;
 }
 
+.gallery-image{
+  transition: all .5s ease-in;
+  cursor: pointer;
+  margin: 5px;
+  border: 1px solid blanchedalmond;
+}
+.gallery-image:hover{
+  transform: scale(3.9);
+  cursor: pointer;
+  box-shadow: 0px 0px 1px #727070;
+z-index: 999; }
+
+  .footer-column-4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .recent-title{
+    margin-right: 1em;
+    font-size: .9em;
+    color: #FFFFFF;
+    font-style: italic;
+    line-height: 1.5em;
+  }
+
+
+@media (max-width: 768px) {
+   .recentpostinfoot{
+       display:none;
+     }
+ }
+
+// media query
+@media (min-width: 768px) {
+    .officers{
+        margin-top: 300px;
+            width: 100%;
+            margin: 0 auto;
+            display: grid;
+            grid-gap: 5px;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+            grid-auto-rows: 250px; 
+            grid-auto-flow: dense;
+    }
+    .horizontal{
+        grid-column: span 2;
+    }
+    .big{ grid-column: span 2;
+         grid-row: span 2;}
+    .vertical{
+        grid-row: span 2;
+    }
+ 
+     .caption{
+      height: 80px;
+      background-color: #253747;
+      width: 100%;
+      display: block;
+      position: absolute!important;
+      bottom:0px;
+      color:white;
+      text-align:center;
+      padding-top: .4em;
+      left: 0px;
+
+
+    }
+    .caption{ 
+       height: 80px;
+      
+      bottom:0px;
+      color:white;
+      text-align:center;
+      padding-top: .4em;
+      left: 0px;
+      font-size: 1.6em;
+      }
+    
+}
+
+// testimony style
+
+
 @media (min-width: 992px) {
+  .officers{
+        margin-top: 300px;
+            width: 100%;
+            margin: 0 auto;
+            display: grid;
+            grid-gap: 5px;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+            grid-auto-rows: 250px; 
+            grid-auto-flow: dense;
+    }
+    .horizontal{
+        grid-column: span 2;
+    }
+    .big{ grid-column: span 2;
+         grid-row: span 2;}
+    .vertical{
+        grid-row: span 2;
+    }
   
 }
 
 @media (min-width: 1200px) {
-
+.jumbotron{
+height: calc(100% - 101px);}
 }

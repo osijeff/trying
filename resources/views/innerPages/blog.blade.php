@@ -1,6 +1,6 @@
 @extends('layouts.clientNav')
 @section('content')
-<div class="jumbotron jumbotron-fluid">
+<div class="jumbotron  blog-jobu jumbotron-fluid">
   <div class="container">
     <h1 class="display-4 text-uppercase">welcome to our blog post</h1>
     <p class="lead">Enjoy your ready</p>

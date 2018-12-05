@@ -1,10 +1,198 @@
+
+
+
+/* contact us  */
+
 .contact-jubo{
   background-image: url("../images/contactjobu.jpg"); /* The image used */
   background-color: #cccccc; /* Used if the image is unavailable */
-  height: 500px; /* You must set a specified height */
+  height: 300px; /* You must set a specified height */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
   color: whitesmoke;
   text-shadow: black 0.3em 0.3em 0.3em;
 }
+
+
+
+
+/* blieves us  */
+.believes-jobu{
+  background-image: url("../images/background01.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 300px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  color: whitesmoke;
+  text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+/* leadership */
+.leadership-jobu{
+  background-image: url("../images/background02.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 300px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  color: whitesmoke;
+  text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+/* history */
+.history-jobu{
+   background-image: url("../images/background03.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 300px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  color: whitesmoke;
+  text-shadow: black 0.3em 0.3em 0.3em;
+}
+/* men movement */
+.men-jobu{
+   background-image: url("../images/background05.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 300px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  color: whitesmoke;
+  text-shadow: black 0.3em 0.3em 0.3em;
+}
+/* women movement */
+.women-jobu{
+   background-image: url("../images/background06.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 300px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  color: whitesmoke;
+  text-shadow: black 0.3em 0.3em 0.3em;
+}
+/* women movement */
+.children-jobu{
+   background-image: url("../images/background07.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 300px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  color: whitesmoke;
+  text-shadow: black 0.3em 0.3em 0.3em;
+}
+/* giving */
+.give-jobu{
+  
+   background-image: url("../images/background08.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 300px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  color: whitesmoke;
+  text-shadow: black 0.3em 0.3em 0.3em;
+}
+  .blog-jobu{
+     background-image: url("../images/background09.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 300px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  color: whitesmoke;
+  text-shadow: black 0.3em 0.3em 0.3em;
+  }
+
+
+  .branches-jobu{
+     background-image: url("../images/background10.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 300px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  color: whitesmoke;
+  text-shadow: black 0.3em 0.3em 0.3em;
+  }
+  .card-image{
+  background-image: url("../images/hero-1.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 150px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  color: whitesmoke;
+  text-shadow: black 0.1em 0.1em 0.1em;
+  position: relative;
+}
+ .card-image-1{
+  background-image: url("../images/background06.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 150px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  color: whitesmoke;
+  text-shadow: black 0.1em 0.1em 0.1em;
+  position: relative;
+}
+.img-item{
+  background-image: url("../images/background06.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  color: whitesmoke;
+  text-shadow: black 0.1em 0.1em 0.1em;
+  position: relative;
+}
+.overall{
+  background-image: url("../images/background10.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 750px;/* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  padding-top: 1em;
+  padding-bottom: 0px;
+  position: relative;
+}
+.mainleader{
+  background-image: url("../images/apostle.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+   height: 300px;/* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: 100%  100%;/* Resize the background image to cover the entire container */
+  padding-top: 1em;
+  position: relative;
+  
+}
+
+
+/* media query */
+
+@media (min-width: 768px) {
+.mainleader{
+    height: 500px;/* You must set a specified height */
+}
+ 
+     
+}
+
+@media (min-width: 992px) {
+
+   
+}
+
+@media (min-width: 1200px) {
+}
+
+
+
